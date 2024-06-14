@@ -1,0 +1,47 @@
+.mainButton {
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 7px;
+
+    &.primary {
+        color: $light-color;
+        background: $primary-color;
+        border-color: $primary-color;
+
+        &:hover {
+            background: $primary-color-hover;
+            border-color: $primary-color-hover;
+        }
+    }
+
+    &.secondary {
+        color: $light-color;
+        background: transparent;
+        border-color: $light-color;
+
+        &:hover {
+            color: $dark-color;
+            background: $light-color;
+            border-color: $light-color;
+        }
+    }
+
+    &.small {
+        padding: 6px 10px;
+        font-size: 12px;
+        line-height: 11px;
+    }
+
+    &.extraSmall {
+        padding: 4px 6px;
+        font-size: 12px;
+        line-height: 11px;
+    }
+
+    &.medium {
+        padding: 10px 30px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

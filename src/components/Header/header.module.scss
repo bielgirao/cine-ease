@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    a {
+        height: 23px;
+    }
+
+    img {
+        width: 120px;
+        cursor: pointer;
+    }
+
+    .userIcon {
+        cursor: pointer;
+        transition: ease-in-out 300ms;
+
+        &:hover {
+            color: $medium-color;
+        }
+    }
+}

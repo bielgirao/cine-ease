@@ -1,0 +1,13 @@
+.pageContent {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-bottom: 20px;
+
+    .nowPlayingSection, .upcomingSection {
+        padding: 0 0 0 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, 'sans-serif';
+}
+
+body {
+  background: $background-color;
+  color: $light-color;
+  min-height: 100vh;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+
+  &.sectionSubTitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+h1, h2.sectionTitle {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+h3.sectionTitle {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+// style for the main banner carousel
+
+.main-slider {
+  position: relative;
+
+  .slick-dots {
+    position: absolute;
+    bottom: 0;
+  
+    li {
+      margin: 0 10px;
+      width: 20px;
+      height: 5px;
+      border-radius: 5px;
+  
+      button {
+        border-radius: 5px;
+        background: $light-color;
+        width: 20px;
+        height: 5px;
+        padding: 0;
+      }
+  
+      button::before {
+        content: ''
+      }
+  
+      &.slick-active {
+        button {
+          background: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+
+// styles for the now playing carousel
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination {
+  position: unset!important;
+  margin: 15px auto;
+  transform: unset!important;
+}
+
+.swiper-pagination-bullets-dynamic {
+  .swiper-pagination-bullet {
+    background: $light-color;
+  }
+  // .swiper-pagination-bullet-active-main {
+  //   background: $primary-color;
+  // }
+}

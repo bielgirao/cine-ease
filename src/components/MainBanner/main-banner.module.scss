@@ -1,0 +1,64 @@
+.bannerWrapper {
+    width: 100%;
+    height: 450px;
+    border-radius: 20px 20px 0 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .bannerContent {
+        width: 100%;
+        height: 175px;
+        position: absolute;
+        padding: 20px 0;
+        bottom: -1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background: linear-gradient(
+            rgba(29, 29, 29, 0), 
+            rgba(29, 29, 29, 0.45), 
+            rgba(29, 29, 29, 0.55),  
+            rgba(29, 29, 29, 0.85), 
+            rgba(29, 29, 29, 0.95), 
+            rgba(29, 29, 29, 1),
+            rgba(29, 29, 29, 1)
+        );
+
+        h3 {
+            font-size: 18px;
+            line-height: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .movieInfo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 12px;
+            font-weight: 500;
+
+            .movieRating {
+                display: flex;
+                align-items: center;
+                gap: 2px;
+                background: $light-color;
+                color: $dark-color;
+                padding: 4px 5px;
+                border-radius: 20px;
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            .movieGenres {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+}
