@@ -1,8 +1,8 @@
 # CineEase
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/bielgirao/cine-ease?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/bielgirao/cine-ease?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/bielgirao/cine-ease?style=for-the-badge)
 
 <img src="/public/cine-ease-banner.jpg" alt="Cine Ease Banner">
 
@@ -74,7 +74,7 @@ This command will start the Vite development server, and you should see output i
 
 <table>
   <tr>
-    <td align="center">
+    <td>
       <a href="https://github.com/bielgirao" title="Perfil GitHub do Gabriel Girao">
         <img src="https://avatars.githubusercontent.com/u/72451904" width="100px;" alt="Foto do Gabriel Girao no GitHub"/><br>
         <sub>
